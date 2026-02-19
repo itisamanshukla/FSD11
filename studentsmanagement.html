@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Smart students Management</h2>
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="text" id="email" placeholder="Enter Email">
+    <input type="number" id="marks" placeholder="Enter Marks">
+    <button onclick="addStudent()">Add Student</button>
+    <h2>Students list</h2>
+    <ul id="studentList"></ul>
+    <script>
+        let students=[];
+        let emailSet=new Set();
+        let gradeMap=new Map();
+        function addStudent(){
+            try{
+                debugger;//debugging k liye
+                const name=document.getElementById("name").value;
+                const email=document.getElementById("email").value;
+                const marks=Number(document.getElementById("marks").value);
+                
+            }
+        }
+    </script>
+</body>
+</html>
